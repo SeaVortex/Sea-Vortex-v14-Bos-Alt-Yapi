@@ -1,0 +1,15 @@
+{
+  "name": "sea-vortex-v14-alt-yapi",
+  "version": "1.0.0",
+  "description": "V14-Bos-Alt-Yapi",
+  "main": "seavortex.js",
+  "scripts": {
+    "test": "node seavortex.js"
+  },
+  "author": "Sea Vortex",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.3.0",
+    "fs": "^0.0.1-security"
+  }
+}
