@@ -5,7 +5,7 @@ fs.readdir("./src/commands/", (_err, files) => {
         if (!file.endsWith(".js")) return;
         let props = require(`../commands/${file}`);
         let commandName = file.split(".")[0];
-        client.commands.set(props.name, {
+        client.commands.set(props.conf.name, {
             name: props,
             ...props,
         });
